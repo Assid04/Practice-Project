@@ -1,7 +1,12 @@
 *{
     margin: 0; padding: 0;
 }
-
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
 /* NAVIGATION CSS STARTS HERE */
 
 .header{
@@ -233,8 +238,8 @@ background-color: black;
 #makebusiness{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 900px;
-    margin: 75px auto;
+    width: 1000px;
+    margin: auto;
     align-items: center;
     justify-content: space-between;
     
@@ -249,7 +254,7 @@ background-color: black;
 }
 #makebusinesstext > p{
     margin-bottom: 10px;
-    text-align: justify;
+   
 }
 #makebusinesstext > h4{
     color: rgb(153, 4, 4);
