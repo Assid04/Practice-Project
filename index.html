@@ -1,84 +1,300 @@
 <!DOCTYPE html>
-
-
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<html lang="en">
 <head>
-<title>My First Website: Home</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project 2.0</title>
+    <!-- fontawesome link -->
+    <script src="https://kit.fontawesome.com/21e24914af.js" crossorigin="anonymous"></script>
+    <!--External CSS Link Here-->
+    <link rel="stylesheet" href="style.css"> 
+
+
 
 </head>
 <body>
+    <section class="header">
+        <nav>
+          <a href="#"><img src="image/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">What We Do</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Blogs</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box"><h1>Example Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea modi nesciunt possimus quos nemo maxime quo pariatur iste hic voluptatum, <br>vel impedit animi ab corrupti dolore laborum alias. Id, nisi!</p>
+      <a class="hero-btn" href="#">Check it Out!</a></div>
+    </section>
 
-    <form>
-        <div>
-    <label>Mr.</label>
-    <input type="radio"name="prefix" value="Mr.">
+<main>
+    <!-- FIRST SECTION CODING STARTS HERE -->
+    <section>
+      <div class="sectionA">
+        <div class="boxstuff-container">
+            <div class="boxstuff"> <i class="fas fa-hard-hat"></i>
+                <h2>Internet Safety</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi labore neque molestiae eveniet quod voluptatibus nemo possimus illo rerum. Suscipit laboriosam non reprehenderit possimus omnis. Lorem ipsum dolor sit amet.</p></div>
     
-    <label>Mrs.</label>
-    <input type="radio"name="prefix" value="Mrs.">
-    
-    <label>PhD.</label>
-    <input type="radio"name="prefix" value="Dr.">
-    
-    
+           <div class="boxstuff"> <i class="fas fa-heart"></i>
+            <h2>Digital Well-being</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam adipisci rem alias tenetur error, est placeat necessitatibus magni quod hic obcaecati dignissimos itaque facilis molestiae doloremque quam magnam incidunt.</p></div>
+           
+            <div class="boxstuff"> <i class="fas fa-globe"></i>
+                <h2>Online Content</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, totam adipisci rem alias tenetur error, est placeat necessitatibus magni quod hic obcaecati dignissimos itaque facilis molestiae doloremque quam magnam incidunt.</p></div>
         </div>
-        <br>
-        <div>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="fname" placeholder="William">
-        </div>
-    <br>
-    
-    <div>
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lname" placeholder="Shakespeare">
-    </div>
-    <br>
-    <div>
-        <lable for="dob">DOB</lable>
-        <input type="date" id="dob" name="dob">
-    </div>
         
-    </form>
+    </div>
 
-<h1>Jimmy</h1>
-<h2>Jimmy</h2>
-<h3>Jimmy</h3>
-<h4>Jimmy</h4>
-<h5>Jimmy</h5>
-<h6>Jimmy</h6>
+<!-- SECOND SECTION CODING STARTS HERE -->
+    <section>
+        <div class="sectionB">
+            <div class="business-header">
+                <h2>Become Your Own Boss!</h2>
+            </div>
 
-<h1>Aaja</h1>
-<h2>Aaja</h2>
-<h3>Aaja</h3>
-<h4>Aaja</h4>
-<h5>Aaja</h5>
-<h6>Aaja</h6>
+            <div id="makebusiness">
+                <div>
+                    <img src="image/smart women.jpg" height="300px">
+                </div>
+                <div id="makebusinesstext">
+                    <h4>Take a Step Forward:</h4>
+                    <h2>Create Your Own Business</h2>
+                    <p class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates perspiciatis sequi quaerat dolorum repudiandae! Nihil quaerat, debitis distinctio culpa eligendi impedit blanditiis porro ratione et quasi totam. Exercitationem, reprehenderit, nisi eligendi unde saepe corrupti, sapiente cum iste odit suscipit quod eveniet corporis fugit laborum est illo! Minima nulla nam ipsa impedit necessitatibus ea sint ipsam aliquam accusamus, labore adipisci rerum ducimus eum quae dolorum recusandae perspiciatis harum? Tempore culpa iusto officia id saepe debitis eligendi dolor, quibusdam numquam nulla vel aut! Voluptates tempora corporis officia dolorem. Ad eius expedita, et quasi obcaecati in molestiae quidem eligendi sed sit facere?</p>
+                    <a href="#">Check Out</a>
+                </div>
 
-<hr>
-<div style="background-color:beige">
-<p><span style="color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span> Illum, sunt quidem asperiores magni fugit eius explicabo non, nesciunt culpa quos voluptatem debitis omnis molestiae corporis mollitia laudantium facere ipsam temporibus.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nostrum earum animi incidunt cupiditate excepturi deleniti ut neque sapiente maiores facilis, amet magni nihil quos sint libero labore cumque? Eius.</p>
-</div>
-<hr>
+            </div>
+    
+        </div>
+    </section>
 
-<a href="https://www.google.com/search?q=dogs&tbm=isch&ved=2ahUKEwjV56CUpKT7AhVunNgFHVi_ByYQ2-cCegQIABAA&oq=dogs&gs_lcp=CgNpbWcQAzIHCAAQsQMQQzIECAAQQzIECAAQQzIICAAQgAQQsQMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyBQgAEIAEMggIABCABBCxAzIFCAAQgAQ6BAgjECdQthdYthdghR1oAHAAeACAAaUBiAHEApIBAzAuMpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=LEhtY9WhG-644t4P2P6esAI&bih=647&biw=672&hl=en" target=_blank>
-    <button style="background-color:black; color:red; border-radius:5px;">Happiness</button>
-</a>
-<br>
-<br>
-<br>
-<br>
+    <section>
+        <!-- THIRD SECTION CODING STARTS HERE -->
+        <div class="sectionC">
+            <div id="service-header"><h3>Our Primary Services</h3></div>
+            <div class="sevice-header-parent">
+                <div class="service-title">
+                    <i class="fas fa-eye"></i>
+                    <h2>Visual Composition</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum libero suscipit maiores dolores aliquam quis corrupti aut ex dolore quos necessitatibus voluptatem iste nulla, quo accusamus! Suscipit magni totam repellendus?</p>
+                </div>
+    
+                <div class="service-title">
+                    <i class="fas fa-tree"></i>
+                    <h2>Responsive</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum libero suscipit maiores dolores aliquam quis corrupti aut ex dolore quos necessitatibus voluptatem iste nulla, quo accusamus! Suscipit magni totam repellendus?</p>
+                </div>
+    
+                <div class="service-title">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h2>E-Commerce</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum libero suscipit maiores dolores aliquam quis corrupti aut ex dolore quos necessitatibus voluptatem iste nulla, quo accusamus! Suscipit magni totam repellendus?</p>
+                </div>
+    
+                <div class="service-title">
+                    <i class="fas fa-user-tie"></i>
+                    <h2>Professional & Optimized</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum libero suscipit maiores dolores aliquam quis corrupti aut ex dolore quos necessitatibus voluptatem iste nulla, quo accusamus! Suscipit magni totam repellendus?</p>
+                </div>
+    
+                <div class="service-title">
+                    <i class="fas fa-bolt"></i>
+                    <h2>Fast Loading</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum libero suscipit maiores dolores aliquam quis corrupti aut ex dolore quos necessitatibus voluptatem iste nulla, quo accusamus! Suscipit magni totam repellendus?</p>
+                </div>
+    
+                <div class="service-title">
+                    <i class="fab fa-google"></i>
+                    <h2>SEO Ready</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum libero suscipit maiores dolores aliquam quis corrupti aut ex dolore quos necessitatibus voluptatem iste nulla, quo accusamus! Suscipit magni totam repellendus?</p>
+                </div>
+            </div>
 
-<div style="color:red">
-<a href="Page 2.html" target=_blank>
-    Page 2
+           
+        </div>
+    </section>
+
+<!-- FOURTH SECTION CODING STARS HERE -->
+<section class="sectionD">
+    <div class="pricing-area-container">
+        <div class="course-title"><h2>GRAB OUR COURSES</h2></div>
+    
+        <div class="course-cards">
+            <div class="single-card">
+                <div class="single-card-image"><img src="image/html-logo.png"></div>
+                <h3>HTML5</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam perspiciatis vitae corrupti, cum dolorem magnam. Placeat cum ipsa magni. Ullam et obcaecati accusamus magnam!</p>
+                <div class="price-class"><span class="price">$ 5</span>
+                <span class="per-month">per month</span></div>
+                <button>Get Started</button>
+                <br>
+                <a href="#">Course Outline</a>
+            </div>
+            <div class="single-card">
+                <div class="single-card-image"><img src="image/css-logo.png"></div>
+                <h3>CSS3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam perspiciatis vitae corrupti, cum dolorem magnam. Placeat cum ipsa magni. Ullam et obcaecati accusamus magnam!</p>
+                <div class="price-class"><span class="price">$ 5</span>
+                    <span class="per-month">per month</span></div>
+                <button>Get Started</button>
+                <br>
+                <a href="#">Course Outline</a>
+            </div>
+            <div class="single-card">
+                <div class="single-card-image"><img src="image/javascript-logo.png"></div>
+                <h3>JAVASCRIPT</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam perspiciatis vitae corrupti, cum dolorem magnam. Placeat cum ipsa magni. Ullam et obcaecati accusamus magnam!</p>
+                <div class="price-class"><span class="price">$ 5</span>
+                    <span class="per-month">per month</span></div>
+                <button>Get Started</button>
+                <br>
+                <a href="#">Course Outline</a>
+            </div>
+    
+        </div>
+    </div>
+</section>
+<!-- BLOG SECTION CODING STARTS HERE -->
+<section>  
+    <div class="blog-container">
+        <div class="blog-header"> <h2>Peep Our Blogs</h2>
+        </div>
+        <div class="single-blog-parent">
+            <div class="single-blog">
+                <div class="blog-img-icon">
+                    <img class="blog-img" src="image/dog-group.jpg">
+                    <div class="blog-icon">
+                        <i class="fas fa-paw"></i>
+                        <h5>Doggo Life-Blog</h5>
+                    </div>
+                </div>
+                <div class="single-blog-text"><h3>Doggo Life-Blog</h3>
+                <p>18 Nov, 2022 by John Doe</p></div>
+            </div>
+            <div class="single-blog">
+                <div class="blog-img-icon">
+                    <img class="blog-img" src="image/sonar-kella.jpg">
+                    <div class="blog-icon">
+                        <i class="fas fa-video"></i>
+                        <h5>Movies-Blog</h5>
+                    </div>
+                </div>
+                <div class="single-blog-text"><h3>Movies-Blog</h3>
+                <p>18 Nov, 2022 by John Doe</p></div>
+            </div>
+            <div class="single-blog">
+                <div class="blog-img-icon">
+                    <img class="blog-img" src="image/_Led_Zeppelin_III.png">
+                    <div class="blog-icon">
+                        <i class="fas fa-music"></i>
+                        <h5>Music-Blog</h5>
+                    </div>
+                </div>
+                <div class="single-blog-text"><h3>Music-Blog</h3>
+                <p>18 Nov, 2022 by John Doe</p></div>
+            </div>
+            <div class="single-blog">
+                <div class="blog-img-icon">
+                    <img class="blog-img" src="image/Shakespeare-plays.jpg">
+                    <div class="blog-icon">
+                        <i class="fas fa-book-reader"></i>
+                        <h5>Books-Blog</h5>
+                    </div>
+                </div>
+                <div class="single-blog-text"><h3>Books-Blog</h3>
+                <p>18 Nov, 2022 by John Doe</p></div>
+            </div>
+            <div class="single-blog">
+                <div class="blog-img-icon">
+                    <img class="blog-img" src="image/cricket.webp">
+                    <div class="blog-icon">
+                        <i class="fas fa-running"></i>
+                        <h5>Cricket-Blog</h5>
+                    </div>
+                </div>
+                <div class="single-blog-text"><h3>Cricket-Blog</h3>
+                <p>18 Nov, 2022 by John Doe</p></div>
+            </div>
+            <div class="single-blog">
+                <div class="blog-img-icon">
+                    <img class="blog-img" src="image/football.jpg">
+                    <div class="blog-icon">
+                        <i class="fas fa-futbol"></i>
+                        <h5>Football-Blog</h5>
+                    </div>
+                </div>
+                <div class="single-blog-text"><h3>Football-Blog</h3>
+                <p>18 Nov, 2022 by John Doe</p></div>
+            </div>
+        </div>
+        
+       
+    </div> 
+
+</section>
+
+ </main>
+
+  
 
 
-</a>, <a href="Page 3.html" target=_blank>
-    Page 3
-</a>
-</div>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-single-parent">
+            <div class="footer-single">
+                <h3>Find Us</h3>
+                <p class="footer-div1-p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, perferendis! Veniam, totam voluptatem similique dicta et iusto dolorum, odio, sequi repellat cupiditate quia nulla magni!</p>
+
+                <p><i class="fas fa-map-marker-alt"></i> &nbsp #, Palce, City, State, In-1234</p>
+                <p class="footer-duv1-p3"><i class="fas fa-phone"> &nbsp </i>+91 123467890</p>
+                <p><i class="fas fa-envelope"></i> &nbsp xyz@example.com</p>
+            </div>
+            <div class="footer-single">
+                <h3>Quick Links</h3>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+            </div>
+            <div class="footer-single">
+                <h3>Quick Links</h3>
+                <p>Ram</p>
+                <p>Shyam</p>
+                <p>Jodu</p>
+                <p>Modhu</p>
+            </div>
+            <div class="footer-single">
+                <h3>Follow Us</h3>
+                <p><i class="fab fa-facebook"></i> &nbsp Facebook... <a href="https://randomfacebookurl.com">https://randomfacebookurl.com</a> </p>
+                <p><i class="fab fa-twitter"></i> &nbsp Twitter... <a href="https://randomtwitterurl.com">https://randomtwitterurl.com</a> </p>
+                <p><i class="fab fa-instagram"></i> &nbsp Instagram... <a href="https://randominstagramurl.com">https://randominstagramurl.com </a> </p>
+            </div>
+        </div>
+        
+        <div class="footer-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <p>Copyright &copy; 2022 || Made by <span id="last-span">Shounak</span></p>
+        </div>
+    </div>
+  </footer>
+
+    
 
 
 
@@ -94,12 +310,15 @@
 
 
 
-
-
-
-
+  <!-- JAVASCRIPT FOR TOGGLE MENU -->
+<script>
+    var navlinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+  </script>  
 </body>
-
-
-
 </html>
